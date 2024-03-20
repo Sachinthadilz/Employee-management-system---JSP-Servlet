@@ -1,0 +1,218 @@
+@charset "ISO-8859-1";
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Set a background color and text color for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style the header and navigation */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+/* Style the hero section */
+#hero {
+    background-image: url('../images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#333;
+    text-align: center;
+    padding: 100px 0;
+    
+}
+
+
+#hero h2 {
+    font-size: 48px;
+ 
+}
+
+#hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Style the "Key Features" section */
+#features {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features h3 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.feature {
+    margin: 20px;
+}
+
+.feature i {
+    font-size: 36px;
+    color: #333;
+}
+
+.feature h4 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Style the "See It in Action" section */
+#demo {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Style the "Contact Us" section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#contact h3 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+#contact p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*table */
+
+table{
+	margin-left: auto;
+  margin-right: auto;
+}
+
+table,td{
+	font-weight: bold;
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	width: 50%;
+	background-color: rgb(0, 64, 128);
+  	color: white;
+}
+
+td:nth-child(even) {
+	font-weight:normal;
+	background-color: rgb(128, 128, 255);
+	text-align: center;
+	
+	}
+	
+input[type="button"] {
+  background-color: rgb(0, 128, 0); /* Green */
+  border-radius: 20px;
+  border: none;
+  margin: 4px 2px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+/*login form*/
+
+.login-form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-group {
+    margin: 15px;
+}
+
+.login-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.login-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.login-group input[type="submit"] {
+    background-color: rgb(0, 128, 0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-group input[type="submit"]:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+.member{
+	text-align: center;
+	margin: 10px;
+}
